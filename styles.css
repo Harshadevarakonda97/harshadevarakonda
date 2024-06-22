@@ -1,0 +1,188 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #fff;
+  color: #333;
+  padding: 2em 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+section {
+  padding: 2em 0;
+  margin: 2em 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-me {
+  background-color: #ffffff;
+}
+
+.skills {
+  background-color: #f1f1f1;
+}
+
+.experience {
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3em;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ul li {
+  margin: 1em;
+  text-align: center;
+  flex: 1 1 150px;
+}
+
+ul li img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto 0.5em;
+}
+
+ul li span {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 1em;
+  color: #333;
+}
+
+.company {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2em;
+}
+
+.company img {
+  width: 100px;
+  height: auto;
+  margin-right: 1em;
+}
+
+.company h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+}
+
+.company p {
+  margin: 0.5em 0;
+  font-size: 1em;
+  color: #666;
+  font-family: 'Merriweather', serif;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #333;
+  font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+.contact-info img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.contact-info img:hover {
+  transform: scale(1.1);
+}
